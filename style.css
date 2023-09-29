@@ -1,0 +1,192 @@
+
+
+.Header{
+    display: flex;
+    background-color: #E3FDFD;
+    color: #71C9CE;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.Header-Container{
+    width: 75vw;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.Break{
+    display: flex;
+    height: 5vh;
+    background-color: #CBF1F5;
+}
+
+.Resume{
+    display: flex;
+    background-color: #E3FDFD;
+    color: #71C9CE;
+    justify-content: center;
+    text-align: center;
+    height: 500px
+}
+
+h2{
+    font-size: 4rem;
+}
+
+.History-Container{
+    display: grid;
+    width: 75vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 25%;
+    row-gap: 25%;
+}
+
+.Education-Container{
+    display: flex;
+    grid-area: 1/1/1/1;
+    border-color: black;
+    border: 5px solid;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Education{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.Professional-Container{
+    display: flex;
+    grid-area: 1/2/1/2;
+    border-color: black;
+    border: 5px solid;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Specializations-Container{
+    display: flex;
+    grid-area: 2/1/2/2;
+    border-color: black;
+    border: 5px solid;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Proficiencies-Container{
+    display: flex;
+    grid-area: 2/2/2/2;
+    border-color: black;
+    border: 5px solid;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Portfolio{
+    display: flex;
+    background-color: #E3FDFD;
+    color: #71C9CE;
+    justify-content: center;
+    text-align: center;
+    height: 350px
+}
+
+.Portfolio-Container{
+    display: grid;
+    width: 75vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+    column-gap: 25%;
+    
+}
+
+.TinDog-Container{
+    display: flex;
+    grid-area: 1/1/1/1;
+    border-color: black;
+    border: 5px solid;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Project-Link{
+    color: #71C9CE;
+    
+}
+
+.ProjectTwo-Container{
+    display: flex;
+    grid-area: 1/2/1/2;
+    border-color: black;
+    border: 5px solid;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.ProjectThree-Container{
+    display: flex;
+    grid-area: 1/3/1/4;
+    border-color: black;
+    border: 5px solid;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.About-Me{
+    display: flex;
+    background-color: #E3FDFD;
+    color: #71C9CE;
+    justify-content: center;
+    text-align: center;
+    height: 700px
+}
+
+.About-Container{
+    display: grid;
+    width: 50vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1;
+    
+}
+
+.Bio{
+    display: flex;
+    grid-area: 1/1/1/1;
+    border-color: black;
+    border: 5px solid;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+}
+
+.DogImage{
+    display: flex;
+    grid-area: 1/2/1/2;
+    border-color: black;
+    border: 5px solid;
+    border-left: 0;
+    justify-content: space-around;
+    text-align: center;
+}
+
+img{
+    height: 500px;
+}
+
+footer{
+    display: flex;
+    background-color: #E3FDFD;
+    color: #71C9CE;
+    justify-content: flex-start;
+}
+
+a{
+    color: #71C9CE
+}
